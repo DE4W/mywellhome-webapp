@@ -10,15 +10,16 @@ const Contact = () => {
       image:
         "https://scontent.fbkk28-1.fna.fbcdn.net/v/t1.15752-9/530232936_1287448056243677_3973052629924110348_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=BfIch7aWsXcQ7kNvwExP2N9&_nc_oc=Adkrfw36dxfPDq6I5oqnFS-LpdHt1cSE3GpAZne6kzRroPnbPrZ4k3fGzir1iixU-5U&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fbkk28-1.fna&oh=03_Q7cD3AFMneQeJmuhO3eDiNqpeqo_DxTcfYzPNl7tk2uPvQ8w5w&oe=68C3BDA5",
       email: "tawan.sws@gmail.com",
-      instagram: "dr_sarahjohnson",
-      facebook: "drsarahjohnson",
+      instagram:
+        "https://www.instagram.com/jaomootawan?utm_source=ig_web_button_share_sheet&igsh=cWFucnA3dHhjMXZj",
+      facebook: "none",
     },
     {
       id: 2,
       name: "Sarun Konsomboon",
       role: "Wellness Technology Director",
       image:
-        "https://photos.google.com/search/CgAaKQonQUYxUWlwUEZIUkNMX2hkMHg2M18yeFZzQThKbVZVVWszRGEycTNFIjESLwotCisKKRInQUYxUWlwUEZIUkNMX2hkMHg2M18yeFZzQThKbVZVVWszRGEycTNFKLDqwJeKMw%3D%3D/photo/AF1QipMm7R3zo63VLO3Q7Q18CHi7_cD3aY5Z5Ril26KH",
+        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/486382498_30065773413070424_9207915109065012797_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=da4B0LiikisQ7kNvwHgFBjq&_nc_oc=AdmBRfvHRiBkG6EjoWchlUUfBBxgbZS49b77eK5ei-NxCJclhoBaUBmg2NDVJ44icww&_nc_zt=23&_nc_ht=scontent.fbkk28-1.fna&_nc_gid=4-gQC1FofrlAL2-XBMfCdA&oh=00_AfXbA7anO1NnUpifoMI3usYiB7XWZNK-L9vGGGUD7yni0w&oe=68A23863",
       email: "sarun.deaw@gmail.com",
       instagram: "mike_wellness_tech",
       facebook: "michaelchentech",
@@ -30,8 +31,9 @@ const Contact = () => {
       image:
         "https://instagram.fbkk28-1.fna.fbcdn.net/v/t1.15752-9/532972213_1301648141679564_1460291599006817861_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=0024fc&_nc_ohc=rrNBtjcy3GsQ7kNvwGWwOZu&_nc_oc=Adl_Tvd5Lv7jMyYFYR6-FCM54GanJAwiYnZV1ohZGvh87v5xLVAQ5tjK9KypubcWjtg&_nc_zt=23&_nc_ht=instagram.fbkk28-1.fna&oh=03_Q7cD3AHbS9_UZX-l0aPOGmc2-sGDRN4mNqyI4c0J3wPS6NTmNA&oe=68C3E0AB",
       email: "s6707012660191@email.kmutnb.ac.th",
-      instagram: "dr_emily_nutrition",
-      facebook: "dremilyrodriguez",
+      instagram:
+        "https://www.instagram.com/arm_rctp?utm_source=ig_web_button_share_sheet&igsh=MTV5cHl3eGh5Y3NseA==",
+      facebook: "none",
     },
     {
       id: 4,
@@ -40,8 +42,9 @@ const Contact = () => {
       image:
         "https://media.discordapp.net/attachments/1391118574071975938/1405098627386441758/IMG_4453.jpg?ex=689d9792&is=689c4612&hm=cd89258a9ce35b159bc7ddfb558bb48dfb732d64f55e06840df62ef917fd5884&=&format=webp&width=720&height=960",
       email: "natlichaboongthong@email.com",
-      instagram: "james_fitness_guru",
-      facebook: "jamesthompsonwellness",
+      instagram:
+        "https://www.instagram.com/lichaleee?igsh=MXZoOW8zMnljc2F6bw%3D%3D&utm_source=qr",
+      facebook: "https://www.facebook.com/nana.pleng.3",
     },
     {
       id: 5,
@@ -50,18 +53,19 @@ const Contact = () => {
       image:
         "https://scontent.fbkk28-1.fna.fbcdn.net/v/t1.15752-9/531603821_3965947163670976_9206917097849193438_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=0024fc&_nc_ohc=W2_mIKje7VYQ7kNvwEInDui&_nc_oc=AdnmGjFDNsEi1rC3Lt5iYlVQLSJbOkx6IMmrYNwkfbJYCju9Dv6c9r7CyRaeAfEzEwI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fbkk28-1.fna&oh=03_Q7cD3AFn_axRT8-HFPyBxu8UY7gWgM9QjtxvuIRSCnVB8ZDedA&oe=68C3C2B6",
       email: "Sitanankansorn@gmail.com",
-      instagram: "dr_lisa_mindful",
-      facebook: "drlisapark",
+      instagram: "https://www.instagram.com/ta.rrari?igsh=Y3FoaTkzYXJsOWZ3",
+      facebook: "none",
     },
     {
       id: 6,
       name: "Ukrit Sanitjai",
       role: "Home Environment Specialist",
       image:
-        "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face",
+        "https://media.discordapp.net/attachments/1391118574071975938/1405144595158929468/IMG_3881.jpg?ex=689dc261&is=689c70e1&hm=3cf01a0ccca81796623d750d5255686db82eeef9ce5e75b90fe93051696b1a3c&=&format=webp&width=1376&height=1032",
       email: "s6707012660085@email.kmutnb.ac.th",
-      instagram: "david_home_wellness",
-      facebook: "davidkimwellness",
+      instagram:
+        "https://www.instagram.com/ide44444?utm_source=ig_web_button_share_sheet&igsh=cWxocGEzeDBqOHhm",
+      facebook: "https://www.facebook.com/share/1ZwgtcWnKe/?mibextid=wwXIfr",
     },
   ];
 

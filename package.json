@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "MyWellHome - Simple wellness webapp",
   "main": "index.js",
-  "homepage": "https://daveksb.github.io/mywellhome-webapp",
+  "homepage": "https://sarunksb.github.io/mywellhome-webapp",
   "scripts": {
     "dev": "npx vite",
     "build": "npx vite build",
