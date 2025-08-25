@@ -19,10 +19,10 @@ const Contact = () => {
       name: "Sarun Konsomboon",
       role: "Wellness Technology Director",
       image:
-        "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/486382498_30065773413070424_9207915109065012797_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=da4B0LiikisQ7kNvwHgFBjq&_nc_oc=AdmBRfvHRiBkG6EjoWchlUUfBBxgbZS49b77eK5ei-NxCJclhoBaUBmg2NDVJ44icww&_nc_zt=23&_nc_ht=scontent.fbkk28-1.fna&_nc_gid=4-gQC1FofrlAL2-XBMfCdA&oh=00_AfXbA7anO1NnUpifoMI3usYiB7XWZNK-L9vGGGUD7yni0w&oe=68A23863",
+        "https://media.discordapp.net/attachments/1258089226067771553/1405143449090527252/IMG_3214_1.JPG?ex=68ad9350&is=68ac41d0&hm=a9951adeb910264b90f4c653f1d44b533f6c5fceba64c6c4eaba5a9e562f56ee&=&format=webp",
       email: "sarun.deaw@gmail.com",
-      instagram: "mike_wellness_tech",
-      facebook: "michaelchentech",
+      instagram: "https://www.instagram.com/sarundeaw/",
+      facebook: "https://www.facebook.com/sarun.deaw",
     },
     {
       id: 3,
@@ -61,7 +61,7 @@ const Contact = () => {
       name: "Ukrit Sanitjai",
       role: "Home Environment Specialist",
       image:
-        "https://media.discordapp.net/attachments/1391118574071975938/1405144595158929468/IMG_3881.jpg?ex=689dc261&is=689c70e1&hm=3cf01a0ccca81796623d750d5255686db82eeef9ce5e75b90fe93051696b1a3c&=&format=webp&width=1376&height=1032",
+        "https://media.discordapp.net/attachments/1391118574071975938/1405144595158929468/IMG_3881.jpg?ex=68ad9461&is=68ac42e1&hm=4de7f49d652060c1bd2d0b0ccbb0c16c0c7eea472605f91cbb97fc06fc52a0d9&=&format=webp&width=1280&height=960",
       email: "s6707012660085@email.kmutnb.ac.th",
       instagram:
         "https://www.instagram.com/ide44444?utm_source=ig_web_button_share_sheet&igsh=cWxocGEzeDBqOHhm",
@@ -112,22 +112,34 @@ const Contact = () => {
                   </div>
 
                   <div className="social-links">
-                    <a
-                      href={`https://instagram.com/${member.instagram}`}
-                      className="social-link instagram"
-                      target="_blank"
-                      rel="noopener noreferrer">
-                      <span className="social-icon">📷</span>
-                      Instagram
-                    </a>
-                    <a
-                      href={`https://facebook.com/${member.facebook}`}
-                      className="social-link facebook"
-                      target="_blank"
-                      rel="noopener noreferrer">
-                      <span className="social-icon">📘</span>
-                      Facebook
-                    </a>
+                    {member.instagram && member.instagram !== "none" && (
+                      <a
+                        href={
+                          member.instagram.startsWith("http")
+                            ? member.instagram
+                            : `https://instagram.com/${member.instagram}`
+                        }
+                        className="social-link instagram"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <span className="social-icon">📷</span>
+                        Instagram
+                      </a>
+                    )}
+                    {member.facebook && member.facebook !== "none" && (
+                      <a
+                        href={
+                          member.facebook.startsWith("http")
+                            ? member.facebook
+                            : `https://facebook.com/${member.facebook}`
+                        }
+                        className="social-link facebook"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <span className="social-icon">📘</span>
+                        Facebook
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>
@@ -152,6 +164,21 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="app-link">
                 Visit App Store
+              </a>
+            </div>
+            <div className="contact-item">
+              <h3>📊 See Our Presentation Slide</h3>
+              <p>
+                View our comprehensive presentation
+                <br />
+                Learn more about MyWellHome
+              </p>
+              <a
+                href="https://www.canva.com/design/DAGv2c9rj3k/4cfJwtvne9hBzmbzvRiDtA/edit"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="app-link">
+                View Presentation
               </a>
             </div>
           </div>

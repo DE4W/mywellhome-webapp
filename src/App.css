@@ -454,6 +454,14 @@ body {
   background: linear-gradient(135deg, #ff5252, #ff7979);
 }
 
+.demo-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
 .video-icon {
   font-size: 1.2rem;
   animation: pulse 2s infinite;

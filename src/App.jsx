@@ -102,18 +102,26 @@ const App = () => {
               <div className="container">
                 <div className="demo-video-card">
                   <h2 className="demo-title">🎥 See MyWellHome in Action</h2>
-                  <p className="demo-description">
-                    Watch our comprehensive demo to discover how MyWellHome transforms your living space into a wellness sanctuary
-                  </p>
-                  <a
-                    href="https://streamable.com/b7j8dn"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="demo-video-btn"
-                  >
-                    <span className="video-icon">▶️</span>
-                    Watch Demo Video
-                  </a>
+                  <div className="demo-buttons">
+                    <a
+                      href="https://www.youtube.com/watch?v=Ep6PalRTMmk&t=5s"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="demo-video-btn"
+                    >
+                      <span className="video-icon">▶️</span>
+                      Watch Full Video
+                    </a>
+                    <a
+                      href="https://streamable.com/b7j8dn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="demo-video-btn"
+                    >
+                      <span className="video-icon">🎬</span>
+                      Watch Short Introduction
+                    </a>
+                  </div>
                 </div>
               </div>
             </section>
